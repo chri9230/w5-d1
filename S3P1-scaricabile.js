@@ -92,7 +92,7 @@ console.log(upperFirst()) */
 /* 
 const giveMeRandom = function (n) {
     const arr = []
-    for(let i = 0; i <= n; i++){
+    for(let i = 0; i < n; i++){
         arr.push(Math.floor(Math.random() * 10))
     }
     return arr
